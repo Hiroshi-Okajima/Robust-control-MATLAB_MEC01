@@ -1,5 +1,7 @@
-"A design method of model error compensator for systems with polytopic-type uncertainty and disturbances(2021)"
-"Model Error Compensator Design for Continuous- and Discrete-Time Non-minimum Phase Systems with Polytopic-Type Uncertainties(2022)"
+以下の２編の論文の数値例を導出するためのMATLAB codeです。
+
+["A design method of model error compensator for systems with polytopic-type uncertainty and disturbances(2021)"](https://www.tandfonline.com/doi/full/10.1080/18824889.2021.1918392?src=)
+["Model Error Compensator Design for Continuous- and Discrete-Time Non-minimum Phase Systems with Polytopic-Type Uncertainties(2022)"](https://www.tandfonline.com/doi/pdf/10.1080/18824889.2022.2052628?needAccess=true)
 
 pso.mで粒子群最適化を用いた設計、iterative_design.mで共通リアプノフ行列と誤差補償器の反復設計ができます。
 
@@ -22,7 +24,7 @@ pso.mで粒子群最適化を用いた設計、iterative_design.mで共通リア
     - stable_mp.mat  
         最小位相系の制御対象。["A design method of model error compensator for systems with polytopic-type uncertainty and disturbances(2021)"](https://www.tandfonline.com/doi/full/10.1080/18824889.2021.1918392?src=)の数値例で用いた制御対象。
     - stable_nmp.mat  
-        非最小位相系の制御対象。["Model Error Compensator Design for Continuous- and Discrete-Time Non-minimum Phase Systems with Polytopic-Type Uncertainties(2022)"]()の数値例で用いた制御対象。
+        非最小位相系の制御対象。["Model Error Compensator Design for Continuous- and Discrete-Time Non-minimum Phase Systems with Polytopic-Type Uncertainties(2022)"](https://www.tandfonline.com/doi/pdf/10.1080/18824889.2022.2052628?needAccess=true)の数値例で用いた制御対象。
 - results/  
     iteretave_design.m、pso.mの設計結果を保存するディレクトリ。  
 - simulink_models/  
