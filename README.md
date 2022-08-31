@@ -1,3 +1,6 @@
+"A design method of model error compensator for systems with polytopic-type uncertainty and disturbances(2021)"
+"Model Error Compensator Design for Continuous- and Discrete-Time Non-minimum Phase Systems with Polytopic-Type Uncertainties(2022)"
+
 pso.mで粒子群最適化を用いた設計、iterative_design.mで共通リアプノフ行列と誤差補償器の反復設計ができます。
 
 - pso.mでは、kMaxが最大更新回数、numParticlesが粒子数、omega,c1,c2が更新式の重みになります。
