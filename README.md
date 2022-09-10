@@ -1,9 +1,12 @@
+Matlab codes for the following two papers. 
 以下の２編の論文の数値例を導出するためのMATLAB codeです。
 
 ["A design method of model error compensator for systems with polytopic-type uncertainty and disturbances(2021)"](https://www.tandfonline.com/doi/full/10.1080/18824889.2021.1918392?src=)
 
 ["Model Error Compensator Design for Continuous- and Discrete-Time Non-minimum Phase Systems with Polytopic-Type Uncertainties(2022)"](https://www.tandfonline.com/doi/pdf/10.1080/18824889.2022.2052628?needAccess=true)
 
+Design based on PSO -> pso.m
+Design based on common lyapunov function and iteration -> iterative_design.m
 pso.mで粒子群最適化を用いた設計、iterative_design.mで共通リアプノフ行列と誤差補償器の反復設計ができます。
 
 - pso.mでは、kMaxが最大更新回数、numParticlesが粒子数、omega,c1,c2が更新式の重みになります。
