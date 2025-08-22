@@ -6,6 +6,8 @@ Matlab codes for the following two papers.
 
 ["Model Error Compensator Design for Continuous- and Discrete-Time Non-minimum Phase Systems with Polytopic-Type Uncertainties(2022)"](https://www.tandfonline.com/doi/pdf/10.1080/18824889.2022.2052628?needAccess=true)
 
+[![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=Hiroshi-Okajima/Robust-control-MATLAB_MEC01)
+
 Design based on PSO -> pso.m
 
 Design based on common lyapunov function and iteration -> iterative_design.m
@@ -50,3 +52,4 @@ pso.mで粒子群最適化を用いた設計、iterative_design.mで共通リア
     反復設計で用いる、誤差補償器を与えて最小のガンマとその時の共通リアプノフ行列の値を得る関数(PFCあり)。
 - test_response.m  
     粒子群最適化もしくは反復設計で設計した誤差補償器を制御対象に適用したときの応答を確認するスクリプト。
+
